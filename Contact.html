@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ChikoChic</title>
+        <link rel="stylesheet" type="text/css" href="Styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <header>
+            <a href="Home.html"><img src="pictures/logo1.png" alt="ChikoChic logo"></a>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="Home.html">Home</a>
+                    <a href="Product.html">Product Category</a>
+                    <a href="Shopping.html">Shopping Category</a>
+                    <a href="About.html">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="ShoppingCart.html">Cart</a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Product.html">Product Category</a></li>
+                    <li><a href="Shopping.html">Shopping Category</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <a href="ShoppingCart.html"><h2> <span class="cartEmoji">&#128722;</span> <span class="cartText">Cart</span> </h2></a>
+        </header>
+
+        <main>
+            <fieldset>
+                <legend><h2>PLEASE SEND ME YOUR FEEDBACK</h2></legend>
+                <form action="mailto:ksnjos004@myuct.ac.za?subject=Feedback" method="post" enctype="text/plain" id="contact">
+                    <label for="firstname">First Name:</label> <input type="text" name="firstname"> <br><br>
+                    <label for="surname">Surname:</label> <input type="text" name="surname"> <br><br>
+                    <label for="Email">E-mail:</label> <input type="text" name="Email"> <br><br>
+                    <textarea name="feedback" cols="40" rows="15" placeholder="Enter your message..."></textarea> <br>
+                    <p id="submit">
+                        <input type="submit" value="Submit"> &nbsp; <input type="reset" value="Clear">
+                    </p>
+                </form>
+            </fieldset>
+        </main>
+
+        <footer>
+            <h3>On social media</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/chiko_dk/" target="blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/chiko.damberd/" target="blank">Facebook</a></li>
+                <li><a href="https://twitter.com/CdChiko" target="blank">Twitter</a></li>
+            </ul>
+            <h3>Contact</h3>
+            <ul>
+                <li>Email: <a href="mailto:ksnjos004@myuct.ac.za">ksnjos004@myuct.ac.za</a></li>
+                <li>Tel: <a href="tel:+27634523316">+27 63 652 3316</a></li>
+            </ul>      
+        </footer>
+    </body>
+</html>
